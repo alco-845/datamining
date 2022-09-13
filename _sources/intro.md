@@ -1,11 +1,21 @@
-# Welcome to your Jupyter Book
+# Pendahuluan
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+## Apa itu data mining?
+Data mining adalah suatu proses pengerukan atau pengumpulan informasi penting dari suatu data yang besar. Proses data mining seringkali menggunakan metode statistika, matematika, hingga memanfaatkan teknologi artificial intelligence.
 
-Check out the content pages bundled with this sample book to see more.
+## Fungsi Data Mining
+1. Descriptive
+fungsi deskripsi dalam data mining adalah sebuah fungsi untuk memahami lebih jauh tentang data yang diamati. Dengan melakukan sebuah proses diharap bisa mengetahui perilaku dari sebuah data tersebut. Data tersebut itulah yang nantinya dapat digunakan untuk mengetahui karakteristik dari data yang dimaksud.
 
-```{tableofcontents}
-```
+2. Predictive
+Fungsi prediksi merupakan sebuah fungsi bagaimana sebuah proses nantinya akan menemukan pola tertentu dari suatu data. Pola-pola tersebut dapat diketahui dari berbagai variabel-variabel yang ada pada data. 
+
+## Tujuan data mining
+1. Sebagai sarana menjelaskan (Explanatory)
+Data mining dapat digunakan sebagai sarana untuk menjelaskan suatu kondisi penelitian.
+
+2. Sebagai sarana konfirmasi (Confirmatory)
+Data mining dapat digunakan sebagai sarana untuk memastikan sebuah pernyataan atau mempertegas suatu hipotesis.
+
+3. Sebagai sarana eksplorasi (Exploratory)
+Data mining dapat digunakan sebagai sarana untuk mencari pola baru yang sebelumnya tidak terdeteksi.

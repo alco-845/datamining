@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Tugas 3 &#8212; My sample book</title>
+    <title>Tugas 3 &#8212; Data Mining</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,7 +52,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Notebooks with MyST Markdown" href="markdown-notebooks.html" />
+    <link rel="prev" title="Tugas 2" href="tugas2.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -93,10 +93,10 @@ const thebe_selector_output = ".output, .cell_output"
         
       
       
-      <img src="_static/logo.png" class="logo" alt="logo">
+      <img src="_static/logo-new.png" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">My sample book</h1>
+      <h1 class="site-logo" id="site-title">Data Mining</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -108,24 +108,19 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Welcome to your Jupyter Book
+                    Pendahuluan
                 </a>
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="markdown.html">
-   Markdown Files
+  <a class="reference internal" href="tugas1.html">
+   Tugas 1
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="notebooks.html">
-   Content with notebooks
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="markdown-notebooks.html">
-   Notebooks with MyST Markdown
+  <a class="reference internal" href="tugas2.html">
+   Tugas 2
   </a>
  </li>
  <li class="toctree-l1 current active">
@@ -192,7 +187,7 @@ title="Toggle navigation"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/tugas3.ipynb"
+        <a href="https://mybinder.org/v2/gh/alco-845/datamining/gh-pages?urlpath=tree/_sources/tugas3.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -235,7 +230,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://github.com/executablebooks/jupyter-book"
+        <a href="https://github.com/alco-845/datamining/tree/gh-pages"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -252,7 +247,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Ftugas3.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/alco-845/datamining/tree/gh-pages/issues/new?title=Issue%20on%20page%20%2Ftugas3.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -339,37 +334,42 @@ title="Print to PDF"
     </div>
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Tugas 3
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#reading-in-the-training-data">
    Reading in the training data
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#split-up-the-dataset-into-inputs-and-targets">
    Split up the dataset into inputs and targets
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#split-the-dataset-into-train-and-test-data">
    Split the dataset into train and test data
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#building-and-training-the-model">
    Building and training the model
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#testing-the-model">
    Testing the model
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#k-fold-cross-validation">
    k-Fold Cross-Validation
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#hypertuning-model-parameters-using-gridsearchcv">
    Hypertuning model parameters using GridSearchCV
   </a>
@@ -393,37 +393,42 @@ title="Print to PDF"
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Tugas 3
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#reading-in-the-training-data">
    Reading in the training data
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#split-up-the-dataset-into-inputs-and-targets">
    Split up the dataset into inputs and targets
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#split-the-dataset-into-train-and-test-data">
    Split the dataset into train and test data
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#building-and-training-the-model">
    Building and training the model
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#testing-the-model">
    Testing the model
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#k-fold-cross-validation">
    k-Fold Cross-Validation
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#hypertuning-model-parameters-using-gridsearchcv">
    Hypertuning model parameters using GridSearchCV
   </a>
@@ -440,8 +445,9 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="tugas-3">
 <h1>Tugas 3<a class="headerlink" href="#tugas-3" title="Permalink to this headline">#</a></h1>
-<section id="reading-in-the-training-data">
-<h2>Reading in the training data<a class="headerlink" href="#reading-in-the-training-data" title="Permalink to this headline">#</a></h2>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="reading-in-the-training-data">
+<h1>Reading in the training data<a class="headerlink" href="#reading-in-the-training-data" title="Permalink to this headline">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span><span class="c1">#read in the data using pandas</span>
@@ -452,7 +458,7 @@ title="Print to PDF"
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-f2b4d1c5-8d8a-4b51-bf69-be8c3869ab96">
+  <div id="df-0f462a50-a903-4505-aaba-a9322b9b7073">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -523,7 +529,7 @@ title="Print to PDF"
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-f2b4d1c5-8d8a-4b51-bf69-be8c3869ab96')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-0f462a50-a903-4505-aaba-a9322b9b7073')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -574,12 +580,12 @@ title="Print to PDF"
 
       <script>
         const buttonEl =
-          document.querySelector('#df-f2b4d1c5-8d8a-4b51-bf69-be8c3869ab96 button.colab-df-convert');
+          document.querySelector('#df-0f462a50-a903-4505-aaba-a9322b9b7073 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-f2b4d1c5-8d8a-4b51-bf69-be8c3869ab96');
+          const element = document.querySelector('#df-0f462a50-a903-4505-aaba-a9322b9b7073');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -617,8 +623,8 @@ title="Print to PDF"
 </div>
 </div>
 </section>
-<section id="split-up-the-dataset-into-inputs-and-targets">
-<h2>Split up the dataset into inputs and targets<a class="headerlink" href="#split-up-the-dataset-into-inputs-and-targets" title="Permalink to this headline">#</a></h2>
+<section class="tex2jax_ignore mathjax_ignore" id="split-up-the-dataset-into-inputs-and-targets">
+<h1>Split up the dataset into inputs and targets<a class="headerlink" href="#split-up-the-dataset-into-inputs-and-targets" title="Permalink to this headline">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>#create a dataframe with all training data except the target column
@@ -640,8 +646,8 @@ y[0:5]
 </div>
 </div>
 </section>
-<section id="split-the-dataset-into-train-and-test-data">
-<h2>Split the dataset into train and test data<a class="headerlink" href="#split-the-dataset-into-train-and-test-data" title="Permalink to this headline">#</a></h2>
+<section class="tex2jax_ignore mathjax_ignore" id="split-the-dataset-into-train-and-test-data">
+<h1>Split the dataset into train and test data<a class="headerlink" href="#split-the-dataset-into-train-and-test-data" title="Permalink to this headline">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
@@ -652,8 +658,8 @@ y[0:5]
 </div>
 </div>
 </section>
-<section id="building-and-training-the-model">
-<h2>Building and training the model<a class="headerlink" href="#building-and-training-the-model" title="Permalink to this headline">#</a></h2>
+<section class="tex2jax_ignore mathjax_ignore" id="building-and-training-the-model">
+<h1>Building and training the model<a class="headerlink" href="#building-and-training-the-model" title="Permalink to this headline">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.neighbors</span> <span class="kn">import</span> <span class="n">KNeighborsClassifier</span>
@@ -666,8 +672,8 @@ y[0:5]
 </div>
 </div>
 </section>
-<section id="testing-the-model">
-<h2>Testing the model<a class="headerlink" href="#testing-the-model" title="Permalink to this headline">#</a></h2>
+<section class="tex2jax_ignore mathjax_ignore" id="testing-the-model">
+<h1>Testing the model<a class="headerlink" href="#testing-the-model" title="Permalink to this headline">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#show first 5 model predictions on the test data</span>
@@ -685,8 +691,8 @@ y[0:5]
 </div>
 </div>
 </section>
-<section id="k-fold-cross-validation">
-<h2>k-Fold Cross-Validation<a class="headerlink" href="#k-fold-cross-validation" title="Permalink to this headline">#</a></h2>
+<section class="tex2jax_ignore mathjax_ignore" id="k-fold-cross-validation">
+<h1>k-Fold Cross-Validation<a class="headerlink" href="#k-fold-cross-validation" title="Permalink to this headline">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>from sklearn.model_selection import cross_val_score
@@ -703,8 +709,8 @@ print(‘cv_scores mean:{}’.format(np.mean(cv_scores)))
 </div>
 </div>
 </section>
-<section id="hypertuning-model-parameters-using-gridsearchcv">
-<h2>Hypertuning model parameters using GridSearchCV<a class="headerlink" href="#hypertuning-model-parameters-using-gridsearchcv" title="Permalink to this headline">#</a></h2>
+<section class="tex2jax_ignore mathjax_ignore" id="hypertuning-model-parameters-using-gridsearchcv">
+<h1>Hypertuning model parameters using GridSearchCV<a class="headerlink" href="#hypertuning-model-parameters-using-gridsearchcv" title="Permalink to this headline">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>from sklearn.model_selection import GridSearchCV
@@ -737,7 +743,6 @@ knn_gscv.fit(X, y)
 </div>
 </div>
 </section>
-</section>
 
     <script type="text/x-thebe-config">
     {
@@ -766,11 +771,11 @@ knn_gscv.fit(X, y)
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="markdown-notebooks.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="tugas2.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Notebooks with MyST Markdown</p>
+            <p class="prev-next-title">Tugas 2</p>
         </div>
     </a>
 </div>
@@ -780,7 +785,7 @@ knn_gscv.fit(X, y)
     <div class="footer-content row">
         <footer class="col footer"><p>
   
-    By The Jupyter Book Community<br/>
+    By Nicola Yanni Alivant<br/>
   
       &copy; Copyright 2022.<br/>
 </p>
